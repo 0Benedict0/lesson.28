@@ -69,7 +69,7 @@ Slider.prototype.createControls = function () {
     this.musicButton.textContent = '🔊 music';
     this.controls.appendChild(this.musicButton);
 
-    this.audio = new Audio(''); 
+    this.audio = new Audio('https://www.youtube.com/watch?v=3MrTQz8Q-nY'); 
     this.audio.loop = true;
     this.isMusicPlaying = false;
 
